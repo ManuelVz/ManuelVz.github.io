@@ -1,0 +1,33 @@
+{
+    "name": "Curriculum Vitae",
+    "short_name": "CV",
+    "description": "Este CV, fue creado utilizando HTML, CSS, y JAVASCRIPT, para el curso 'Introduccion a programacion Front-End' de Argentina Programa 4.0",
+    "start_url": "CV.html",
+    "display": "standalone",
+    "orientation": "portrait-primary",
+    "icons": [
+      {
+        "src": "/imagenes/icono/icono 72x72.png",
+        "type": "image/png", "sizes": "72x72"
+      },
+
+      {
+        "src": "/imagenes/icono/icono 96x96.png",
+        "type": "image/png", "sizes": "96x96"
+      },
+
+      {
+        "src": "/imagenes/icono/icono 512x512.png",
+        "type": "image/png", "sizes": "512x512"
+      }
+    ],
+    "background_image": [
+        {
+            "src":"/imagenes/fondo1.jpg"
+            
+        },
+        {
+            "src":"/imagenes/fondo2.jpg"
+        }
+    ]
+  }

@@ -1,0 +1,101 @@
+
+.imagenes {
+     max-width:auto;
+     height: 163px;;
+     margin-left: 0%;
+     border-radius: 100%;
+     
+}
+
+ #fila1,#fila2,#fila3, #fila4{  /*div padre*/
+        width: 100%;
+    }
+#columna2_fila1, #columna3_fila1, #columna1_fila3, #columna2_fila3,  #columna1_fila2, #columna2_fila2, #columna1_fila4, #columna2_fila4{  /*div hijos*/
+    display: inline-block;
+    font-family: 'Quicksand', sans-serif;
+    font-style: oblique;
+    font-weight: bolder;
+  }
+
+ #contenedor_nombre {
+  font-family: 'Bree Serif', serif;
+}
+
+ .boton_redireccion{
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #333;
+    padding: 0%;
+    font-size: 12px;
+    width: 20px;
+  }
+
+  #informacion_basica {
+    border: solid;
+    background-image: url("../imagenes/fondo1.jpg");  /*Los dos puntos, los utilizo para volver a la carpeta anterior, y luego entro al directorio de imagenes.*/
+  }
+  
+  #formacion_academica_y_experiencia,#habilidades,#idiomas_y_cursos {
+    border: solid;
+  }
+
+
+
+
+
+
+ 
+
+  #contenedor_section {
+    text-align: center;
+    background-image: url("../imagenes/fondo2.jpg");  /*Los dos puntos, los utilizo para volver a la carpeta anterior, y luego entro al directorio de imagenes.*/
+  }
+
+/*Barra de progreso para habilidades e idiomas.*/
+  .barra_progress {
+  vertical-align: revert; /*Utilice este tipo de alineacion, porque me parecio que es la que mejor queda centrada con el texto.*/
+  }
+
+
+
+
+/*Botones para mostrar y ocultar promedios/periodos/detalles.*/
+.boton_mostrar, .boton_ocultar{
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #333;
+    padding: 0%;
+    font-size: 12px;
+    width: fit-content;
+    
+  }
+
+/*Para que el boton ocultar promedios/periodos/detalles, este oculto por defecto.*/
+.boton_ocultar{
+  display: none;
+}
+
+/*Texto asociado a los botones.*/
+.promedios, .periodos, .detalles{
+  border: solid;
+  width: fit-content; /*Para que el ancho, sea igual al del texto.*/
+  text-align: center;
+  margin: auto; /*Para que me quede centrado.*/
+  padding: 1%; /*Para que el texto, no me quede pegado a los bordes del cuadro.*/
+  display: none;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  
+}
+
+section h3 {
+  float: left;
+  width: 100%;
+  padding: 0;
+  margin-bottom: 0.5rem;
+  font-size: calc(1.275rem + .3vw);
+  line-height: inherit;
+  font-weight: bolder;
+}
